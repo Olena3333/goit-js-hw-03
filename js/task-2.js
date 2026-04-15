@@ -4,7 +4,7 @@ const makeArray = function (firstArray, secondArray, maxLength) {
     return array.slice(0, maxLength);
   }
 
-  return result;
+  return array;
 };
 
 console.log(makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3)); // ['Mango', 'Poly', 'Ajax']
